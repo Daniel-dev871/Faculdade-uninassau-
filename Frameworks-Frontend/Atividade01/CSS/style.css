@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(40, 40, 77);
+    margin:auto;
+}
+header{
+    text-align: center;
+    font: normal  arial;
+    margin:auto;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+section{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10%;
+    border-color: transparent;
+    border-color: rgba(0, 0, 0, 0.301);
+    border-style: groove;
+    width: 900px;
+    margin:auto; 
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+    font-style: arial;
+    
+}
+h3{
+    font:normal arial;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(37, 102, 37);
+}
+p{
+    text-align: center;
+    font-size: 20px;
+}
+.txt1{
+    text-align: left;
+}
+.ul1{
+    margin-left:340px;
+    
+}
+.ul2{
+     margin-left:310px;
+
+
+}
+footer{
+    color: rgb(44, 42, 42);
+}
+.links, .centro{
+    text-align: center;
+}
+.eu{
+    columns: 168px;
+    text-align: left;
+    margin-left: 200px;
+    margin-top: 12px;
+}
+table{
+    border: 20px;
+}
+.centro1{
+    margin-left: 63px;
+}
+.tabela{
+    margin-left: 300px;
+}
+table, th, td{
+    border: 1px solid rgb(43, 40, 40); 
+    border-collapse: collapse;
+    padding: 8px 
+}
+a:hover{
+    cursor: pointer;
+}
