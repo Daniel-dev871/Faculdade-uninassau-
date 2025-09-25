@@ -1,0 +1,54 @@
+
+body{
+    background-color: rgb(21, 23, 46);
+}
+.lista1{
+    background-color: rgb(51, 42, 42);
+    padding-left: 60px;
+    width: 400px;
+    height: auto;
+    border-radius: 10%;
+    margin-left: 200px;
+    margin-top: 15px;
+}
+.lista2{
+    background-color: rgb(49, 45, 45);
+    padding-left: 60px;
+    width: 400px;
+    height: auto;
+    border-radius: 10%;
+    margin-top: 15px;
+}
+li{
+    color: white;
+    font-size: 20px;
+}
+.div1{
+    
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.logo{
+      display: block;
+      margin-left: 500px; 
+       width: 300px;     
+     
+}
+#whey{
+    width: 30px;
+}
+.container{
+    display: flex;
+    gap: 20px;
+}
+.button{
+    margin-top: 40px;
+    margin-left: 480px;
+    width: 400px;
+    height: 55px;
+    font-size: 50px;
+}
+h2{
+    color: white;
+    font-size: 50px;
+}

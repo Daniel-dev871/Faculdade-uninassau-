@@ -1,0 +1,98 @@
+body{
+      margin: 0%;
+      height: 100%;
+      background-attachment: fixed;
+      background:linear-gradient(rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.774)), url(/assets/img/background.png);
+    /*  background-repeat: no-repeat;
+      background-size: cover;    Não usei esses codigos pq achei feio*/
+}
+header{
+    background-color: #6997BF;
+    margin: 0%;
+    padding-bottom: 20px;
+    font-size: 40px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px #4d9ee698;
+}
+.cabeçalho{
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 1px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.cabeçalho a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 40px;
+    font:arial;
+}
+.cabeçalho a:hover{
+    transition: 0.5s;
+    font-size: 45px;
+    color: #2a1f35;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: underline;
+}
+
+h2{
+    margin-top: 20px;
+    font-size: 360%;/*Fiz em porcetagem para testar quando eu diminuo e aumento a tela*/
+    color: #6997BF;
+    text-align: center;
+}
+.titulo1{
+    margin-top: 8%;
+}
+h3{
+    color: #2b577e;
+    text-align: center;
+    font-size: 280%;
+}
+p{
+    color: #cbcdce;
+    text-align: center;
+    font-size: 130%;/*Fiz em porcetagem para testar quando eu diminuo e aumento a tela*/
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 500px;
+    background-color: #6997bf;
+    font-size: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;              
+    justify-content: center;    
+    align-items: center;
+    border-radius: 20px;
+    padding: 30px 0px;
+    height: 19px;
+    box-shadow: 0 4px 10px rgba(47, 137, 255, 0.4);
+}
+.links2{
+    padding: 40px;
+}
+.curriculo{
+    position: fixed;
+    bottom: 0;
+    right: 0.2%;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    background-color: #6997bf;
+    border-radius: 10px;
+    border-style: none;
+    padding: 15px;
+    font-size: 40px;
+}
+
