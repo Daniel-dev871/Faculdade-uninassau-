@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #6b705c, #a5a58d);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: "Poppins", sans-serif;
+        }
+        main {
+            background-color: #999ac6;
+            width: 350px;
+            padding: 25px;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        main:hover {
+            transform: scale(1.02);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 25px;
+            text-align: center;
+            color: #2f2f2f;
+            text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.4);
+        }
+
+        input {
+            width: 80%;
+            margin: 8px 0px 0px 20px;
+            height: 35px;
+            border: none;
+            border-radius: 8px;
+            padding: 0 10px;
+            font-size: 16px;
+            text-align: center;
+            outline: none;
+            transition: 0.3s;
+        }
+
+        input:focus {
+            box-shadow: 0 0 8px #646cff;
+            background-color: #f3f3f8;
+        }
+
+    
+        button {
+            background-color: #646cff;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 10px 18px;
+            margin: 8px;
+            cursor: pointer;
+            font-size: 15px;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background-color: #4b50b2;
+            transform: scale(1.05);
+        }   
+
+         p {
+            font-size: 22px;
+            font-weight: bold;
+            margin-top: 20px;
+            color: #2e2e2e;
+            text-align: center;
+            min-height: 25px;
+        }
+  </style>
+</head>
+<body>
+    <main>
+        <h1>Calculadora</h1>
+        <div>
+            <input type="text" name="" id="n1" placeholder="Digite um numero">
+            <input type="text" name="" id="n2" placeholder="Digite um numero">
+        </div>
+        <div>
+            <button onclick="somar()">Somar</button>
+            <button onclick="subtrair()">subtrair</button>
+            <button onclick="dividir()">dividir</button>
+        </div>
+        <p id="resultado"></p>
+    </main>
+
+    <script>
+        var resultado = document.querySelector("#resultado");
+        
+        function somar(){
+            let n1 = Number(document.querySelector("#n1").value);
+            let n2 = Number(document.querySelector("#n2").value);
+            resultado.innerHTML = n1 + n2}
+        function subtrair(){
+            let n1 = Number(document.querySelector("#n1").value);
+            let n2 = Number(document.querySelector("#n2").value);
+            resultado.innerHTML = n1 - n2}
+        function dividir(){
+            let n1 = Number(document.querySelector("#n1").value);
+            let n2 = Number(document.querySelector("#n2").value);
+            isNaN(n1) || isNaN(n2) || n1 === 0 || n2 === 0 ? alert("campos invalidos"):resultado.innerHTML = n1 / n2;}
+        function multiplicar(){
+            let n1 = Number(document.querySelector("#n1").value);
+            let n2 = Number(document.querySelector("#n2").value);  
+            isNaN(n1) || isNaN(n2) || n1 === 0 || n2 === 0 ? alert("campos invalidos"):resultado.innerHTML = n1 * n2;}
+    </script>
+</body>
+</html>
